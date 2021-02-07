@@ -1,0 +1,54 @@
+body {
+    background-color: #fff176;
+}
+
+.nav-area {
+    background-color: #fff176;
+}
+
+.btn-search {
+    background-color: #5e35b1;
+    color: white;
+}
+
+.card {
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 5px;
+}
+
+#meal-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card img {
+    width: 200px;
+}
+
+
+
+.card h1 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 20px 0 20px 0;
+}
+
+#menuDetail {
+    width: 250px;
+    text-align: left;
+    border: none;
+    border-radius: 15px;
+}
+
+.meal-details img {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Master</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light nav-area">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Cooking Master</a>
+                  <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Recipes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <div class="container">
+                <form class="col-md-6 m-auto py-5">
+                    <div class="input-group mb-3">
+                        <input type="text" id="input-meals" class="form-control" placeholder="Search for meal">
+                        <div class="input-group-append">
+                        <button type="button" id="search-button" class="btn btn-search">Search</button>
+                        </div>
+                    </div>
+                </form>          
+            </div> 
+        </div>
+        <div class="container" >
+                <div id="menuDetail" class="card"></div>
+        </div>
+            <div class="container">
+                <div id="meal-container" class="meals-area"></div>
+            </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html> 
